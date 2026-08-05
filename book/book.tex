@@ -1,0 +1,64 @@
+\documentclass[graybox,envcountchap,sectrefs,openany]{SNmono}
+
+%\usepackage{mathptmx}
+%\usepackage{helvet}
+%\usepackage{courier}
+\usepackage{type1cm}         
+\usepackage[utf8]{inputenc}
+\usepackage[russian]{babel}
+
+\usepackage{epigraph}
+
+
+\usepackage{makeidx}         % allows index generation
+\usepackage{graphicx}        % standard LaTeX graphics tool
+                             % when including figure files
+\usepackage{multicol}        % used for the two-column index
+\usepackage[bottom]{footmisc}% places footnotes at page bottom
+
+\usepackage{newtxtext}       % 
+\usepackage[varvw]{newtxmath}       % selects Times Roman as basic font
+
+\makeindex             % used for the subject index
+                       % please use the style svind.ist with
+                       % your makeindex program
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\begin{document}
+
+\author{Илья Амехин}
+\title{Пособие для начинающих демиургов}
+\subtitle{-- Как формализировать и работать с самым глубоким слоем мира --}
+\maketitle
+
+\frontmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\include{prefix/dedication}
+\include{prefix/foreword}
+\include{prefix/acknow}
+\include{prefix/ethics}
+
+\tableofcontents
+
+\include{acronym}
+
+
+\mainmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{chapters/part_1}
+\include{chapters/chapter_1}
+\include{chapters/appendix}
+
+\backmatter%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\include{postfix/glossary}
+\include{postfix/solutions}
+\printindex
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\end{document}
+
+
+
+
+

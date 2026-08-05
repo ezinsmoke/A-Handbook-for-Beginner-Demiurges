@@ -1,0 +1,52 @@
+.
+├── book
+│   ├── acronym.aux
+│   ├── book.aux
+│   ├── book.fdb_latexmk
+│   ├── book.fls
+│   ├── book.idx
+│   ├── book.ilg
+│   ├── book.ind
+│   ├── book.log
+│   ├── book.pdf
+│   ├── book.synctex.gz
+│   ├── book.tex
+│   ├── book.toc
+│   ├── chapters
+│   │   ├── appendix.aux
+│   │   ├── appendix.tex
+│   │   ├── chapter_1.aux
+│   │   ├── chapter_1.tex
+│   │   ├── part_1.aux
+│   │   └── part_1.tex
+│   ├── DescriptionTexts.txt
+│   ├── figure.eps
+│   ├── figure-eps-converted-to.pdf
+│   ├── postfix
+│   │   ├── glossary.aux
+│   │   ├── references template.tex
+│   │   ├── solutions.aux
+│   │   └── solutions.tex
+│   ├── prefix
+│   │   ├── acknow.aux
+│   │   ├── acronym.tex
+│   │   ├── dedication.aux
+│   │   ├── dedication.tex
+│   │   ├── ethics.aux
+│   │   ├── ethics.tex
+│   │   ├── foreword.aux
+│   │   ├── foreword.tex
+│   │   └── glossary.tex
+│   ├── SNmono.cls
+│   ├── spbasic.bst
+│   ├── spmpsci.bst
+│   ├── spphys.bst
+│   ├── svindd.ist
+│   └── svind.ist
+├── chapter template.tex
+├── file_structure.txt
+├── LICENSE
+├── README
+└── Пособие_для_начинающих_демиургов.zip
+
+5 directories, 45 files
